@@ -2,10 +2,10 @@
     import java.util.Scanner;
     public class LargestProduct {
         public static void main(String[] args) {
-            System.out.println("Please enter a Size for the array");//O(1)
-            Scanner input=new Scanner(System.in);//O(1)
-            int UserInt= input.nextInt();//O(1)
-            System.out.println("Now,Please enter a list of integers for the array");//O(1)
+            System.out.println("Please enter a Size for the array");
+            Scanner input=new Scanner(System.in);
+            int UserInt= input.nextInt();
+            System.out.println("Now,Please enter a list of integers for the array");
             int[] User_int_list=new int[UserInt];
             for (int i=0;i<User_int_list.length;i++){
                 int UserValues=input.nextInt();
